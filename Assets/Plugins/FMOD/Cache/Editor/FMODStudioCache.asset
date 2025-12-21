@@ -1,5 +1,187 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5149057984669830341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_land/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 895925836
+    data2: 1705293685
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &-4620891187694589449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_interactable_doors
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_interactable_doors
+  Guid:
+    Data1: 1025693843
+    Data2: 1080056511
+    Data3: -379085646
+    Data4: 1531391757
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4398238941244789904}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1230
+--- !u!114 &-3399294377494355879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mfx_tavern_music
+  m_EditorClassIdentifier: 
+  Path: event:/mfx_tavern_music
+  Guid:
+    Data1: -1608184044
+    Data2: 1310006977
+    Data3: -1172332108
+    Data4: -1037471731
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 77538
+--- !u!114 &-3289322949595045738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModStudio/Tavern1N/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639019350163330201
+  FileSizes:
+  - Name: Desktop
+    Value: 1476
+  Exists: 1
+--- !u!114 &-1895686936557180023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_jump/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 895925836
+    data2: 1705293685
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &-1461748707527220960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_player_jump
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_player_jump
+  Guid:
+    Data1: 2024463232
+    Data2: 1332172138
+    Data3: 1231339184
+    Data4: 1146282877
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1895686936557180023}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 490
+--- !u!114 &-52088791557693190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ambient_forest
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ambient_forest
+  Guid:
+    Data1: -2051500812
+    Data2: 1079430074
+    Data3: -124964718
+    Data4: -1251642554
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 76500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,11 +194,246 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
+  EditorBanks:
+  - {fileID: -3289322949595045738}
+  - {fileID: 7546916582076353333}
+  EditorEvents:
+  - {fileID: -3399294377494355879}
+  - {fileID: 5115040578850852250}
+  - {fileID: -1461748707527220960}
+  - {fileID: -4620891187694589449}
+  - {fileID: 4790959270886195067}
+  - {fileID: 2974547099010389185}
+  - {fileID: -52088791557693190}
+  - {fileID: 8582813763091134509}
+  EditorParameters:
+  - {fileID: 5122226278474702115}
+  MasterBanks:
+  - {fileID: 7546916582076353333}
+  StringsBanks:
+  - {fileID: -3289322949595045738}
   cacheVersion: 131856
-  cacheTime: 0
-  SerializableEventsDict: []
+  cacheTime: 639019350163330201
+  SerializableEventsDict:
+  - key: event:/mfx_tavern_music
+    index: 0
+  - key: event:/sfx_interactable_fireplace
+    index: 1
+  - key: event:/sfx_player_jump
+    index: 2
+  - key: event:/sfx_interactable_doors
+    index: 3
+  - key: event:/sfx_player_land
+    index: 4
+  - key: event:/sfx_player_footsteps
+    index: 5
+  - key: event:/sfx_ambient_forest
+    index: 6
+  - key: event:/sfx_ambient_tavern
+    index: 7
+--- !u!114 &2974547099010389185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_player_footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_player_footsteps
+  Guid:
+    Data1: -2069391935
+    Data2: 1263784993
+    Data3: -1434546763
+    Data4: -550957263
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3271065943920349554}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &3271065943920349554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footsteps/Footstep_Surface
+  m_EditorClassIdentifier: 
+  Name: Footstep_Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 895925836
+    data2: 1705293685
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stone
+  - Wood
+  Exists: 1
+--- !u!114 &4398238941244789904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_interactable_doors/Doors
+  m_EditorClassIdentifier: 
+  Name: Doors
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1297526276
+    data2: 1323331364
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Open
+  - Close
+  Exists: 1
+--- !u!114 &4790959270886195067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_player_land
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_player_land
+  Guid:
+    Data1: 1377395622
+    Data2: 1322624137
+    Data3: 1817000100
+    Data4: 319744193
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5149057984669830341}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 490
+--- !u!114 &5115040578850852250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_interactable_fireplace
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_interactable_fireplace
+  Guid:
+    Data1: -1322385109
+    Data2: 1268861882
+    Data3: -1369248362
+    Data4: 1655405537
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25000
+--- !u!114 &5122226278474702115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Camera_Height
+  m_EditorClassIdentifier: 
+  Name: Camera_Height
+  StudioPath: parameter:/Camera_Height
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4139071011
+    data2: 3960571602
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7546916582076353333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModStudio/Tavern1N/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639019350163320149
+  FileSizes:
+  - Name: Desktop
+    Value: 6926688
+  Exists: 1
+--- !u!114 &8582813763091134509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ambient_tavern
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ambient_tavern
+  Guid:
+    Data1: -1895425541
+    Data2: 1316145257
+    Data3: -780293207
+    Data4: 166555048
+  Banks:
+  - {fileID: 7546916582076353333}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1.8000001
+  MaxDistance: 20
+  Length: 207609
