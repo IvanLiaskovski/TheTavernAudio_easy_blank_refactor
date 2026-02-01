@@ -123,10 +123,10 @@ MonoBehaviour:
   Path: Assets/FModStudio/Tavern1N/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639043604670912264
+  lastModified: 639055616550874553
   FileSizes:
   - Name: Desktop
-    Value: 1672
+    Value: 2020
   Exists: 1
 --- !u!114 &-1895686936557180023
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3289322949595045738}
   cacheVersion: 131856
-  cacheTime: 639043604670912264
+  cacheTime: 639055616550874553
   SerializableEventsDict:
   - key: event:/mfx_tavern_music
     index: 0
@@ -465,10 +465,10 @@ MonoBehaviour:
   Path: Assets/FModStudio/Tavern1N/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639043604670897219
+  lastModified: 639055616550859512
   FileSizes:
   - Name: Desktop
-    Value: 6930112
+    Value: 6931072
   Exists: 1
 --- !u!114 &8582813763091134509
 MonoBehaviour:

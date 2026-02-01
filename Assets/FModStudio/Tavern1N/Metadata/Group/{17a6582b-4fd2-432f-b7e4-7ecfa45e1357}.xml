@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Interactable</value>
 		</property>
+		<relationship name="masters">
+			<destination>{9fe72c87-a7b8-4562-9a7e-14d31b8097b3}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{5f41c232-9ffe-44b7-bc90-be03da89d8ce}</destination>
 		</relationship>
